@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	Curve-Hilbert
+%define		pdir	Math
+%define		pnam	Curve-Hilbert
 Summary:	Math::Curve::Hilbert - Hilberts space filling curve
 Summary(pl):	Math::Curve::Hilbert - krzywa wype³niaj±ca przestrzeñ Hilberta
 Name:		perl-Math-Curve-Hilbert
