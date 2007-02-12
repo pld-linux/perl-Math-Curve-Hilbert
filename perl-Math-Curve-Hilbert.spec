@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Curve-Hilbert
 Summary:	Math::Curve::Hilbert - Hilberts space filling curve
-Summary(pl):	Math::Curve::Hilbert - krzywa wype³niaj±ca przestrzeñ Hilberta
+Summary(pl.UTF-8):   Math::Curve::Hilbert - krzywa wypeÅ‚niajÄ…ca przestrzeÅ„ Hilberta
 Name:		perl-Math-Curve-Hilbert
 Version:	0.04
 Release:	1
@@ -24,10 +24,10 @@ The Hilbert::Curve module provides some useful functions using Hilberts
 Space-filling Curve. This is handy for things like Dithering,
 Flattening n-dimensional data, fractals - all kind of things really.
 
-%description -l pl
-Modu³ Hilbert::Curve udostêpnia u¿yteczne funkcje korzystaj±ce z
-krzywej wype³niaj±cej przestrzeñ Hilberta. Jest przydatna do takich
-zastosowañ jak dithering, wyg³adzanie n-wymiarowych danych, fraktale.
+%description -l pl.UTF-8
+ModuÅ‚ Hilbert::Curve udostÄ™pnia uÅ¼yteczne funkcje korzystajÄ…ce z
+krzywej wypeÅ‚niajÄ…cej przestrzeÅ„ Hilberta. Jest przydatna do takich
+zastosowaÅ„ jak dithering, wygÅ‚adzanie n-wymiarowych danych, fraktale.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
