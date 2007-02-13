@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Curve-Hilbert
 Summary:	Math::Curve::Hilbert - Hilberts space filling curve
-Summary(pl.UTF-8):   Math::Curve::Hilbert - krzywa wypełniająca przestrzeń Hilberta
+Summary(pl.UTF-8):	Math::Curve::Hilbert - krzywa wypełniająca przestrzeń Hilberta
 Name:		perl-Math-Curve-Hilbert
 Version:	0.04
 Release:	1
