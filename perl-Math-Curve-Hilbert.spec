@@ -9,7 +9,7 @@ Summary:	Math::Curve::Hilbert - Hilberts space filling curve
 Summary(pl.UTF-8):	Math::Curve::Hilbert - krzywa wypełniająca przestrzeń Hilberta
 Name:		perl-Math-Curve-Hilbert
 Version:	0.04
-Release:	1
+Release:	2
 License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
