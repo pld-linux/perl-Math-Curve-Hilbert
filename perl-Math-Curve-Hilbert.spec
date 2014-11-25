@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Math
 %define		pnam	Curve-Hilbert
+%include	/usr/lib/rpm/macros.perl
 Summary:	Math::Curve::Hilbert - Hilberts space filling curve
 Summary(pl.UTF-8):	Math::Curve::Hilbert - krzywa wypełniająca przestrzeń Hilberta
 Name:		perl-Math-Curve-Hilbert
@@ -14,14 +14,15 @@ License:	GPL or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	384cad8ba6759efdf0bbbe987350109f
+URL:		http://search.cpan.org/dist/Math-Curve-Hilbert/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The Hilbert::Curve module provides some useful functions using Hilberts
-Space-filling Curve. This is handy for things like Dithering,
+The Hilbert::Curve module provides some useful functions using
+Hilberts Space-filling Curve. This is handy for things like Dithering,
 Flattening n-dimensional data, fractals - all kind of things really.
 
 %description -l pl.UTF-8
